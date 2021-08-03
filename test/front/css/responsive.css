@@ -1,0 +1,845 @@
+/*---------Medai Query-----------*/
+
+/* css only for hover effect all hover effect must write in this Media query */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .left_sidebar{max-width: 250px;}
+    .right_bar{width: calc(100% - 250px);}
+    .left_sidebar{padding: 40px 20px 0;}
+    .formField input, .formField select, .formField textarea{padding: 0 6px;font-size: 14px;}
+    .dashbord_header{margin-bottom: 30px;}
+    .right_bar{padding: 0 30px 30px;}
+    .dashboardbox_data .box_inner p{font-size: 13px;line-height: 25px;}
+    .dashboardbox_data .box_inner h5{font-size: 20px;}
+    .contact{padding: 70px 0;}
+    .contact_detail{padding-top: 40px;}
+    .touch_map{padding: 60px 0;}
+    .comman_table thead th{font-size: 15px;font-weight: 500;}
+    .comman_table tbody td{padding: 15px 5px !important;}
+    .equiForm{margin-bottom: 30px;}
+    .add_equipment{padding: 20px 0 20px 20px;margin-bottom: 30px;}
+    .add_equipment h4{font-size: 18px;}
+    .custom_btn{height: 45px;line-height: 45px;top: 10px;font-size: 13px;}
+}
+
+@media only screen and (min-width: 1686px) {
+    .main_home_page .bannerForm{padding: 50px;}
+    .main_home_page .bannerTitle{font-size: 90px;line-height: 110px;}
+    .main_home_page .formField{margin-bottom: 30px;}
+    .main_home_page .bannerCapMain{margin-top: 110px;}
+}
+
+@media only screen and (max-width: 1499px){
+    .main_home_page .bannerCaption{top:56% !important;}
+   
+}
+
+@media only screen and (min-width: 1368px) {
+    .inner_logo{width:350px;}
+}
+
+@media only screen and (max-width: 1367px) {
+    .main_home_page .bannerCaption{top:56%;}
+    .inner_logo{width: 250px;}
+ 
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Custome responsive css start from here */
+
+/* common css for below screen 1199 */
+@media only screen and (max-width: 1199px) {
+    .howitCom {
+        position: relative;
+    }
+    .howitLeft {
+        margin-top: 0;
+    }
+    .howitRight.howitCom:after {
+        top:-2px;
+    }
+    .howitCom:after{
+        top: -2px;
+    }
+    .howitCom:after {
+        right: -51px;
+    }
+    .howitCom:before {
+        width: calc(100% - -47px);
+    }
+    .innerPage .bannerMain{
+        height: inherit;
+        padding-bottom: 62px;
+        padding-top: 10px;
+    }
+    .basic_left{width: 100%;}
+    .basic_right{width: 100%;padding-left: 0;padding-top: 30px;}
+    .dashbord_header{margin-bottom: 30px;}
+    .left_sidebar{max-width: 250px;}
+    .right_bar{width: calc(100% - 250px);}
+    .suplier_box.small{width: 30%;}
+    .suplier_box{width: 31%;margin: 0 9px;padding: 20px;min-height: 360px;}
+    .suplier_box.big{width: 97%;margin: 0 10px 0 10px;min-height: auto;}
+    .bigpayment{width: 97%;margin: 30px 10px 0 10px;min-height: auto;}
+    .readyto_text h1{font-size: 70px;margin: 0 0 15px 0;}
+    .readyto_text span{font-size: 18px;line-height: 40px;}
+    .dashboardbox_data .box_inner p{font-size: 13px;}
+    .dashboardbox_data .box_inner h5{font-size: 20px;}
+    .dashboardbox_data{padding: 25px 16px;}
+    .vat_box{margin-right: 60px;}
+
+    /*22-1-2019 css start*/
+    .testi_left{left:-140px;}
+    /*22-1-2019 css end*/
+
+
+    .main_home_page .main_header{position: inherit !important;}
+    .main_home_page .header{position: absolute;width: 100%;top:0px;}
+    .main_home_page .bannerMain{position: static;height: 650px;transform:none !important;}
+    .main_home_page .bannerSec{position: static;height: auto;}
+    .main_home_page .bannerCaption{position: static;transform: none;margin-top: 110px !important;float: left;width: 100%;}
+
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .testi_left{position: static;width: 100%;float: left;}
+    .rec-text{margin-top: 15px;width: 100%;}
+    .inner_logo{margin-right: 5px;}
+    .inner_logo img{width: 100px;}
+    .inner_logo{width: auto;}
+    .dashbord_header .left_header a{padding: 12px 4px;font-size: 14px;}
+    .testi_left{position: static;float: left;width: 100%;}
+    .testimonial_cover{min-height: auto;}
+
+}
+
+/* common css for below screen 991 */
+@media only screen and (max-width: 991px) {
+    .add_equipment{
+        padding: 20px 0 20px 20px;
+        margin-bottom: 20px;
+    }
+    .custom_btn{
+        height: 40px;
+        line-height: 40px;
+        top: 12px;
+    }
+    .equiForm .formField .input-group{width: 100%;}
+    .formField{margin-bottom: 10px;}
+    .closeIcon{visibility: visible;}
+    .right_bar{width: 100%;}
+    .filBy{visibility: visible;}
+    .left_sidebar{position: absolute;left: -250px;transition: all ease 0.9s;}
+    .bannerMain{height: 650px;}
+    .inner_lend{padding-bottom: 40px;}
+    .lapi_img img{max-width: 300px;}
+    .contact{padding: 50px 0;}
+    .contact_detail{padding-top: 25px;}
+    .touch_map{padding: 40px 0;}
+    .touch_map h3{padding-bottom: 20px;}
+
+    /*22-1-2019 css start*/
+    .becom_dozer_heading:before {top: -29px;background-size: 72% auto;left:0px;}
+    .rentalSec .lend_text{padding-left: 15px;}
+    .left_sidebar{height: auto;}
+    .customerBox img{width: 100%;}
+    .bannerForm{padding: 5px 30px 30px;}
+    .formField{margin-top: 20px;}
+    /*22-1-2019 css end*/
+    .user_profile_pic img{float: left !important;}
+    .main_home_page .bannerTitle{font-size: 52px;line-height: 86px;}
+    .callIcon{padding-left:20px;}
+    .right_link{padding-right: 0px;}
+    .dashbord_header .left_header a{padding: 12px 4px;font-size: 14px;}
+    .inner_logo{margin-right: 5px;}
+    .inner_logo img{width: 100px;}
+    .inner_logo{width: auto;}
+    .inner_test {padding-bottom: 20px;}
+    .testi_full{padding-top: 20px;}
+
+}
+
+/* common css for below screen 767 */
+@media only screen and (max-width: 767px) {
+
+    .testi_full{margin-top: 25px;}
+    .formStep {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .bannerForm{
+        padding:15px 15px 15px;
+    }
+    .formField {
+        margin-top: 15px;
+    }	
+    .formField input, .formField select {
+        height: 41px;
+        line-height: 41px;
+    }
+    .formField label {
+        margin-bottom: 6px;
+        font-size:13px;
+    }
+    .formField .input-group {
+        width: 100%;
+    }
+    .topRight {
+        padding:0 5px;
+    }
+    .headRigt a {
+        font-size:14px;
+    }
+    .topRight:last-child {
+        padding-left:7px;
+    }
+    .callIcon {
+        padding-left:20px;
+    }
+    .bannerTitle {
+        font-size: 60px;
+        line-height: 80px;
+        padding: 20px 0 0;
+    }
+    .formStep > li {
+        font-size:13px;
+        padding:0 5px;
+    }
+    .formStep > li ~ li:after{
+        left: -3px;
+        top: 3px;
+    }
+    .datePick:after{
+        right: 0;
+        top: 44px;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        transform: translateY(0%);
+        margin: auto;
+        left: 0;
+        text-align: center;
+    }
+    .formField.datePick {
+        padding-bottom:10px;
+    }
+    .bannerMain{
+        padding-bottom: 40px;
+    }
+
+    .rentalStep {
+        padding:30px 0;
+    }
+    .rentalStep > li {
+        width: 100%;
+    }
+
+    .quoteDiv:before {
+        width: 100%;
+        height: 1px;
+        left: -70px;
+        right: 0;
+        margin: auto;
+        top: 50%;
+    }
+    .quoteDiv:after {
+        left: 0;
+        right: -70px;
+        margin: auto;
+        top: 50%;
+        width: 100%;
+        height: 1px;
+        bottom: auto;
+    }
+    .testiCon {
+        padding-top: 30px;
+    }
+    .newsInput {
+        width: calc(100% - 127px);
+        float: left;
+    }
+    .newsSubmit {
+        max-width: 127px;
+    }
+    .featBox a {
+        padding:0 15px;
+    } 
+    .featBox {
+        min-height: inherit;
+        line-height: 60px;
+    }
+    .comSpacing {
+        padding: 40px 0;
+    }
+    .footerTop.comSpacing {
+        padding-top: 60px;
+    }
+    .comSpacing.blogSec {
+        padding-bottom: 70px;
+    }
+    .comSpacing.whySec {
+        padding: 40px 0;
+    }
+    .serviceBox {
+        padding-top:30px;
+    }
+    .footTitle {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .quoteDiv {
+        display: none;
+    }
+    .authDetail {
+        padding-top: 25px;
+    }
+    .howitRight {
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+        margin: 0;
+    }
+    .howitCom:before {
+        width: 1px;
+        height: 85px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -60px;
+        bottom: auto;
+    }
+    .howitRight.howitCom:after {
+        bottom: 110px;
+        top: auto;
+        left: -9px;
+        right: 0;
+        margin:auto;
+    }
+    .howitRight.howitCom:before {
+        left: 0;
+        height: 89px;
+        bottom: 27px;
+        width: 1px;
+        top: auto;
+    }
+    .howitLeft.howitCom:before {
+        top: 36px;
+    }
+    .howitLeft {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 60px;
+        text-align: center;
+        margin-top: 0;
+        margin: 0;
+    }
+    .howitLeft.howitCom:after {
+        bottom: auto;
+        top: 120px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .overlay ul li a{
+        font-size: 34px;
+    }
+    .overlay .overlay-close {
+        width: 30px;
+        height: 30px;
+        right: 15px;
+        top: 30px;
+    }
+    .howitCom p{
+        font-size: 14px;
+    }
+    .howitMidlle {
+        width: 100%;
+    }
+    .ipadImg .howitRight.howitCom:before, .ipadImg .howitCom:before,.mobileImg .howitCom:before,.mobileImg .howitCom.howitRight:before {
+        width: 1px;
+    }
+    .ipadImg .howitCom.howitLeft:after,.ipadImg .howitCom:after, .ipadImg .howitRight.howitCom:after,.mobileImg .howitCom.howitLeft:after,.mobileImg .howitCom:after, .mobileImg .howitRight.howitCom:after {
+        right: 0;
+    }
+    .howItSlider {
+        padding-top: 30px;
+    }
+    .innerPage .bannCon > p {
+        font-size: 16px;
+    }
+    .innerPage .bannerTitle{
+        padding-top: 0px;
+    }
+    .innerPage .forgotPage .bannerTitle {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .eqp_data h3{font-size: 25px;line-height: 22px;}
+    .eqp_data span{font-size: 13px;line-height: 20px;}
+    .eqp_data .common_btn{float: left;}
+    .add_equipment{
+        padding: 20px 0 20px 20px;
+        margin-bottom: 25px;
+    }
+    .custom_btn{
+        top: 10px;
+        right: 10px;
+    }
+    .add_equipment h4{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .suplier_box.small,.suplier_box{width: 100%;min-height: auto;}
+    .suplier_box{margin: 0 0 30px 0;}
+    .bigpayment{margin-top: 30px;}
+    .suplier_box.big{margin: 0;width: 100%;}
+    .bigpayment{width: 100%;}
+    .suplier_box_main_top{margin: 0;}
+    .dashboard .row.mrgin_top{margin-top: 0;}
+    .bannerMain{height: 500px;}
+    .lend_img{padding: 0 0 20px 0;}
+    .lend_img img{width: 100%;}
+    .readyto_text h1{font-size: 50px;margin: 0 0 10px 0;}
+    .readyto_text span{font-size: 14px;line-height: 30px;}
+    .readyto_text{margin-bottom: 25px;}
+    .need_more{padding: 15px 0 0 0;}
+    .inner_lend{padding-bottom: 20px;}
+    .inner_lend h2{font-size: 24px;line-height: 25px;}
+    .inner_lend p{font-size: 14px;line-height: 25px;}
+    .partner_detail{width: 100%;}
+    .lapi_img{position: relative;text-align: center;}
+    .number{font-size: 65px;}
+    .partner_inner{padding-bottom: 25px;}
+    .vat_box h3{font-size: 14px;}
+    .vat_box p,.vat_box h3{line-height: 26px;}
+    .vat_box{margin-right: 40px;}
+    .contact_right{padding-top: 15px;}
+    .contact_detail{padding-top: 10px;}
+    .touch_map h3{font-size: 25px;line-height: 30px;}
+
+    /*22-1-2019 css start*/
+    .contact_left{position: relative;}
+    .testi_left{position: relative;left: 0;}
+
+    .rentalSec .lend_text{padding-left: 0px;}
+    .rentalSec .lend_img{height: 300px;}
+    .rentalSec .lend_img img{width: auto;}
+
+    .blog-content{padding: 0 15px 10px 15px;}
+    .blog-date{text-align: left;}
+    .blog-list .date{font-size: 45px;}
+    .blog-list .month{font-size: 25px;}
+    .blog-list .year{font-size: 20px;}
+    .blog-list-content{margin: 15px 0px;}
+    .blog-detail{margin: 0px;}
+    .con_l_part{left:0px;}
+
+    .dashboard_pading{padding: 0px;}
+    .dashboardbox_data{padding: 0 15px;}
+    .dashboard_box{padding: 0 15px;}
+    .testi_left {text-align: center;}
+    .testi_left img{width:200px;margin: 0 auto;}
+    /*22-1-2019 css end*/
+
+    .user_profile_pic{margin: 0px 0 10px -15px}
+
+    .main_home_page .bannerTitle{padding: 0px;font-size: 40px;line-height: 56px;}
+    .main_home_page .bannerCaption{margin-top: 110px !important;}
+    .ab_about_content h2{font-size: 26px;line-height: 36px;padding-bottom: 15px;}
+    .ab_about_content h2{margin-bottom: 15px;}
+
+}
+
+
+
+@media only screen and (max-width: 639px) {
+    .left_header{width: 100%;text-align: center;}
+    .right_header{width: 100%;padding: 10px 0 0 0;}
+    .dashbord_header{padding: 10px 0;}
+    .mainTitle{font-size: 30px;line-height: 30px;}
+    .readyto_text h1{font-size: 40px;margin: 0;}
+    .readyto_text span{font-size: 12px;}
+    .need_more{padding: 5px 0 0 0;line-height: 28px;font-size: 15px;}
+    .partner_inner p{font-size: 13px;line-height: 20px;}
+    .partner_inner{padding-bottom: 20px;}
+    .number{top:-15px;}
+    .dashboardbox_data{padding: 15px 20px;}
+    .dash_icon{margin-bottom: 10px;}
+    .dashboardbox_data{height: 150px;}
+    .equipment_step h6{padding: 0;font-size: 16px}
+    .vat_box{margin-right: 30px;}
+
+    /*22-1-2019 css start*/
+    .becom_dozer_heading:before {top: -17px;background-size: 58% auto;left: 0px;}
+    .testi_full{padding-bottom: 20px;}
+    .fc-toolbar .fc-center{width: 100%;margin-top: 15px;}
+    .fc-toolbar .fc-center h2{text-align: center;width: 100%;}
+    /*22-1-2019 css end*/
+
+    .blog-content{width: 100%;border:none;}
+
+}
+
+@media only screen and (max-width: 567px) {
+    .dashbord_header .left_header a{display: block;padding: 4px 0px;}
+
+
+}
+
+
+
+/* common css for below screen 480 */
+@media only screen and (max-width: 480px) {
+    .pull-right.seeBtn.trans {
+        float: none !important;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .contactDetails p {
+        max-width: 261px;
+    }
+
+
+}
+
+/* common css for below screen 479 */
+@media only screen and (max-width: 479px) {
+    .headRigt {
+        padding-top: 25px;
+    }
+    .headRigt a{
+        font-size: 14px;
+    }
+    .headRigt .phoneNum a {
+        font-size:0px;
+    }
+    .callIcon{
+        padding-left: 9px;
+    }
+    .topRight {
+        padding: 0 3px;
+    }
+    .logo img {
+        max-width: 110px;
+    }
+    .bannerCapMain {
+        margin-top: 90px;
+    }
+    .bannerTitle{
+        font-size: 36px;
+        line-height: 38px;
+        padding:0;
+    }
+    .formStep > li ~ li:after {
+        display: none;
+    }
+    .formStep > li{
+        padding: 0;
+        line-height: 26px;
+    }
+    .mainTitle{
+        font-size: 26px;
+        line-height: 36px;
+        padding-bottom:15px;
+    }
+    .rentalStep > li {
+        margin-bottom:10px;
+        font-size: 15px;
+        line-height: 26px;
+        padding: 0;
+        padding-left: 25px;
+    }
+    .rentalStep > li:before {
+        font-size:20px;
+        line-height: 25px;
+    }
+    .rentalStep > li:last-child{
+        margin-bottom: 0px;
+    }
+    .btn {
+        line-height: 40px;
+        height: 40px;
+        max-width: 170px;
+    }
+
+    .mailIcon img {
+        max-width: 90px;
+    }
+    .mailIcon{
+        top: 14px;
+        right: 0;
+        left: 0;
+        margin:auto;
+        text-align: center;
+    }
+    .eqp_data{width: 50%;margin-bottom: 20px;}
+    .breadcrums{height: 200px;}
+    .inner_head{padding-top: 30px;}
+    .breadcrumbs_in{padding-top: 40px;}
+    .breadcrums h1{line-height: 44px;font-size: 20px;}
+    .eqp_reguler h2{font-size: 20px;line-height: 17px;margin:20px 0;}
+    .eqp_reguler p{font-size: 13px;line-height: 21px;}
+    .eqp_data h3{font-size: 25px;line-height: 22px;}
+    .eqp_data span{font-size: 13px;line-height: 20px;}
+    .common_btn{height: 40px;max-width: 130px;}
+    .equipment_text_main{margin-bottom: 20px;}
+    .callIcon{padding-left: 17px;}
+    .dashbord_header .left_header a{font-size: 13px;}
+    .header_social li{width: 22px;height: 23px;line-height: 23px;margin: 0 1px;}
+    .header_social li a{font-size: 13px;}
+    .right_link{padding-right: 0;}
+    .right_bar{padding: 0 20px;}
+    .formField{margin:8px 0;}
+    .filBy::before {left: 1px;}
+    .sidebar_menu ul li a{padding: 7px 0;font-size: 14px;}
+    .leftside_content h5{font-size: 18px;}
+    .left_sidebar{padding: 60px 15px 0;}
+    .custom_btn{font-size: 12px;letter-spacing: 0.5px;padding: 0 5px;}
+    .add_equipment h4{font-size: 16px;line-height: 16px;}
+    .add_equipment{margin-bottom: 20px;}
+    .uplod .input-group::after{height: 45px;line-height: 45px;font-size: 13px;width: 140px;}
+    .custom-file-upload{padding: 3px 0 0px 160px;font-size: 13px;}
+    .custNavBox {padding: 0 2px;}
+    .custNavBox:first-child{padding-left: 2px;}
+    .supply_paid{padding-right: 10px;line-height: 16px;font-size: 16px;}
+    .suplier_box h4{font-size: 16px;padding-bottom: 10px;line-height: 16px;}
+    .suplier_box h5{font-size: 14px;padding: 10px 0 5px 0;}
+    .suplier_box{margin: 0 0 20px 0; }
+    .suplier_box.big li{padding-bottom: 10px;font-size: 14px;line-height: 24px;}
+    .bigpayment{margin-top: 20px;}
+    .payment_info label,.payment_info h6{line-height: 25px;}
+    .readyto_text h1{font-size: 28px;}
+    .readyto_text span{line-height: 20px;}
+    .lapi_img img{max-width: 250px;}
+    .number{font-size: 50px;}
+    .partner_detail{padding: 15px 0 0;}
+    .number{top:-10px;}
+    .comSpacing.ylow_white{background: #070707;}
+    .see_all{line-height: 20px;padding-right: 5px;line-height: 20px;font-size: 14px;}
+    .add_equipment{padding: 20px 0 20px 10px;}
+    .wizard .info{font-size: 14px;margin: 15px auto;padding: 5px;line-height: 20px;}
+    .wizard .info i{font-size: 16px;}
+    .next-step{padding: 0 10px;}
+    .vat_box h3{font-size: 13px;line-height: 17px;}
+    .vat_box{margin-bottom: 10px;}
+    .vat_box p{font-size: 13px;}
+    .contact{padding: 25px 0;}
+
+    /*22-1-2019 css start*/ 
+    .contact_left{width:100%;}
+    .inner_test h2{font-size: 16px;}
+    .img_circle{margin: 0 auto;}
+    .testi_block_right,.testi_block_left{width: 100%;}
+    .testi_block_right{padding-top: 10px;}
+    .quot{top:90px;}
+    .img_circle{margin-bottom: 15px;}
+
+    .fc-toolbar .fc-left{float: left;width: 100%;text-align: center;}
+    .fc-toolbar .fc-right{float: left;width: 100%;margin-top: 15px;}
+    .fc-toolbar .fc-right .fc-button-group{float:none;margin: 0 auto;}
+    /*22-1-2019 css end*/ 
+
+    .main_home_page .bannerTitle{font-size: 32px;line-height: 46px;}
+    .callIcon{margin-right: 5px !important;}
+
+}
+
+@media only screen and (max-width: 360px) {
+    .dashboard {margin-top: 94px;}
+}
+
+
+/* common css for below screen 479 */
+@media only screen and (max-width: 320px) {
+    .howitRight.howitCom:before {
+        height: 67px;
+        bottom: 45px;
+    }
+    .dashboard{margin-top: 110px;}
+}
+
+
+
+/* common css for screen size between 480 to 767 */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .rentalStep > li {
+        font-size: 18px;
+        line-height: 36px;
+        padding: 0 32px;
+        margin-bottom: 15px;
+    }
+    .rentalStep > li:before {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .rentalStep > li:last-child{
+        margin-bottom: 0px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+    .eqp_data{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .eqpcount{margin: 15px 0 15px;}
+    .equipment_text_main{margin-bottom: 25px;}
+    .common_btn{height: 45px;max-width: 150px;}
+    .eqp_reguler p{font-size: 13px;line-height: 21px;}
+    .equipment{margin-bottom: 35px;}
+
+
+
+
+}
+
+
+
+
+/* common css for screen size between 568 to 767 */
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+    .howitMidlle {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        display: block;
+    }
+    .howitRight.howitCom:before{
+        height: 100px;
+        top: -80px;
+    }
+    .howitRight.howitCom:after {
+        top: -90px;
+    }
+
+}
+
+
+/* common css for screen size between 640 to 767 */
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .dashbord_header{margin-bottom: 20px;padding: 15px 0;}
+    .dashbord_header .left_header a{font-size: 14px;}
+    .right_link{padding-right: 0px;}
+    .header_social li{margin:0;}
+}
+
+
+/* common css for screen size between 768 to 1199 */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .howitMidlle, .howitLeft, .howitRight {
+        width: 33.33%;
+    }
+    .howitRight.howitCom:before {
+        left: -50px;
+        width: calc(100% - -50px);
+    }
+    .howitRight.howitCom:after {
+        left: -57px;
+    }
+    .howitCom:after {
+        right: -51px;
+    }
+
+
+
+
+}
+
+
+/* common css for screen size between 768 to 1024 */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .rentalStep > li {
+        padding: 0 15px 0 50px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .rentalStep > li:before {
+        font-size: 40px;
+        line-height: 46px;
+        top: 15px;
+    }
+    .comSpacing, .comSpacing.whySec {
+        padding: 60px 0;
+    } 
+
+
+}
+
+/* common css for screen size between 768 to 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .bannerTitle {
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .formStep > li {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .formStep > li ~ li:after {
+        left: -3px;
+        top: 1px;
+    }
+
+    .blogBox {
+        padding:22px 20px 20px;
+    }
+    .quoteDiv {
+        right: 45%;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding-top: 17px;
+    }
+    .testConMain {
+        padding-left: 50px;
+    }
+    .overlay-cornershape nav, .overlay-cornershape .overlay-close {
+        height: calc(100% / 8);
+        right: 30px;
+    }
+    .innerPage .bannCon > p {
+        line-height: 28px;
+    }
+    .breadcrums h1{font-size: 30px;}
+    .eqp_data h3{font-size: 25px;line-height: 21px;}
+    .eqp_data span{font-size: 13px;}
+
+
+}
+
+/* common css for screen size between 1024 to 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bannerTitle {
+        font-size: 80px;
+    }
+    .formStep > li{
+        padding: 0 6px;
+    }
+    .formStep > li ~ li:after {
+        left: -3px;
+    }
+    .equipment_table .equiForm .col-md-2{width: 33.33%;margin-bottom: 15px;}
+    .gj-datepicker{width: 100%;}
+
+
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+    .howitCom:before {
+        width: 440px;
+    }
+
+}
+
+
+

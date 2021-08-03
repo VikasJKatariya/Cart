@@ -1,0 +1,11 @@
+.error{
+    color: red !important;
+}
+
+div.dataTables_wrapper div.dataTables_length select{
+	width: 58px!important;
+}
+
+.return_address.displayblock{
+	display: block;
+}

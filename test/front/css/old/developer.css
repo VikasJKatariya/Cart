@@ -1,0 +1,58 @@
+a.submitBtn:hover
+{
+	background: #252525;
+	color: #fff;
+}
+a.submitBtn {
+	background: #ffc300;
+	font-weight: 500;
+	font-size: 14px;
+	color: #252525;
+	letter-spacing: 1px;
+	border: 0px;
+}
+a.submitBtn {
+	width: 100%;
+	border: 1px solid #dcdcdc;
+	height: 51px;
+	line-height: 51px;
+	padding: 0 18px;
+	outline: 0;
+	
+	border-radius: 0px;
+	font-size: 14px;
+	color: #9b9b9b;
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+}
+.successbutton {
+	background: #005200;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 10px;
+}
+.rejectbutton {
+	background: #800502;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 10px;
+}
+.custom_zone h3{
+	cursor: pointer;
+	font-size: 18px;
+	color: #ffc300;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.eqp_slider .dropzone{
+	min-height: 250px;
+}
+.eqp_slider .dz-message span{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: capitalize;
+	color: #424949;
+}
